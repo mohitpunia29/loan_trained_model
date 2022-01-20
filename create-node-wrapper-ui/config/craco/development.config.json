@@ -1,0 +1,58 @@
+{
+  "env": {
+    "TAB_TITLE": "AI Model Evaluator",
+    "DEV_MODE": true
+  },
+  "home"      : "home",
+  "theme"  : "lab",
+  "domains": {
+    "default"  : "localhost",
+    "fileStore": "localhost"
+  },
+  "features": {
+    "settings"                   : true,
+    "support"                    : false,
+    "login"                      : true,
+    "signUp"                     : true,
+    "authChangePassword"         : true,
+    "authWelcomePage"            : true,
+    "home"                       : true,
+    "graphsDashboard"            : true,
+    "tempComponent"              : true
+  },
+  "modules": {
+    "common"   : {
+      "TAB_TITLE"   : "AI Model Evaluator",
+      "COMPANY_NAME": "{CLIENT}",
+      "INFRASTRUCTURE_TEAM_EMAIL": "it.ops@entefy.com",
+      "colorPalette": "basic"
+    },
+    "auth": {
+      "variables": {
+        "VIDEO": false
+      }
+    },
+    "menu": {
+      "keepDefaultRoute": false,
+      "hideWhenNotAuthenticated": false,
+      "overrides": {
+        "tempComponent": "Temp"
+      }
+    },
+    "tempComponent": {
+      "variables": {
+        "TITLE": "Temp Component",
+        "COMPANY_NAME": "{CLIENT}",
+        "LOGO_PATH_DISABLED": "entefy-logo.png",
+        "SNACKBAR": true
+      }
+    },
+    "signup": {
+      "variables": {
+        "WITHOUT_PASSWORD_FIELDS": false,
+        "WITHOUT_PASSWORD_CHANGE": false,
+        "WITH_VENDOR_SELECTOR": false
+      }
+    }
+  }
+}

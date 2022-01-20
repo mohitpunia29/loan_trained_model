@@ -1,0 +1,22 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 100px;
+}
+
+.button + .button {
+  margin-left: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading {
+  margin-left: 15px;
+}

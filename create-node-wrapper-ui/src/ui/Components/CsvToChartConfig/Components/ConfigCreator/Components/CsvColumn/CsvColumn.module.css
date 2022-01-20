@@ -1,0 +1,17 @@
+.root {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: move;
+}
+
+.name {
+  flex: 1;
+  margin-right: 5px;
+  text-align: left;
+  color: white;
+}

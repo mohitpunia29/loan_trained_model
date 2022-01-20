@@ -1,0 +1,8 @@
+.label + .label {
+  margin-top: 5px
+}
+
+.radio {
+  padding-top: 0;
+  padding-bottom: 0;
+}

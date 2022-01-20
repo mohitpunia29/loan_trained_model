@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.button {
+  font-size: 14px !important;
+}

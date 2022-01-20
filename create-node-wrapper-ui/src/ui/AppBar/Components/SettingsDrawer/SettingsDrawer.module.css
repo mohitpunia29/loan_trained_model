@@ -1,0 +1,29 @@
+.optionsSection + .optionsSection {
+  margin-top: 40px;
+}
+
+.optionsSectionTitle {
+  text-transform: capitalize;
+  color: #3f51b5;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.drawerContainer {
+  padding: 20px;
+  padding-top: 50px;
+}
+.drawerContainer .input {
+  min-width: 300px;
+}
+
+.drawerCloseIcon {
+  border-radius: 100% !important;
+  left: 10px;
+  top: 10px;
+  position: absolute!important;
+}
+
+.clearCacheButton {
+  margin-top: 40px !important;
+}

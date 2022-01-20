@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.mapContainer {
+  flex: 1 auto;
+  height: 100%;
+  max-width: calc(100% - 200px); /* Not sure why, but otherwise it won't shrink */
+}
+
+.options {
+  flex: 0 0 200px;
+  height: 100%;
+  background-color: #dedede;
+}

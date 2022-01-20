@@ -1,0 +1,120 @@
+{
+  "sections": [
+    {
+      "heading": "1. SERVICES.",
+      "paragraphs": [
+        "(a)  AI Consulting and Software Development. According to the specifications provided in the Order Form (“Order”) between Entefy Inc. (“Entefy”) and Client, Entefy will provide AI consulting and software development services (“Services”) to Client.",
+        "(b)  Software Evaluation License. If Entefy’s Services as outlined in the Order are provided in connection with the evaluation of certain Entefy software solutions or products including but not limited to its artificial intelligence (AI) platform, downloadable software, or hosted or cloud-based solutions (herein referred to individually or collectively as “Software”), then such evaluation is subject to this Entefy Software Evaluation License Agreement (“Evaluation License”). The Client may use Software solely for the purpose set forth in the Order or demonstrating Software internally within the Client’s organization, as applicable. The Software is provided “as is” without indemnification, support or warranty of any kind, whether express, implied, statutory or otherwise. Notwithstanding anything to the contrary herein, Entefy has no duty to provide support for Software, and ENTEFY BEARS NO LIABILITY FOR ANY DAMAGES RESULTING FROM USE OF THE SOFTWARE BEYOND THE SCOPE OF THE PURPOSES CONTEMPLATED HEREIN. This warranty applies only to the Software and does not extend to the life of the Software once it is no longer in the discovery or evaluation period.",
+        "(c)  Special Development Services. From time to time, Client may request Entefy to provide certain additional development services for Client, such as adding special functionality to the Software. Client's request will specify the services to be performed and the specific results to be achieved (“Special Development Services”) by use of a new Order agreed to in writing by the parties. Upon Evaluation License between Entefy and Client on the nature of the Special Development Services, and the compensation and completion date terms thereof as set forth in the new Order, Entefy will perform the Special Development Services using commercially reasonable efforts."
+      ]
+    },
+    {
+      "heading": "2. DELIVERY.",
+      "paragraphs": [
+        "Subject to this Evaluation License, Entefy will access and utilize the Software to execute on the deliverables set forth in the Order."
+      ]
+    },
+    {
+      "heading": "3. LICENSE GRANTS.",
+      "paragraphs": [
+        "(a)  License. Client acknowledges that its rights in and to the Software are solely the right to evaluate and assess the Software pursuant to this Evaluation License and does not include any rights of ownership in any of the Software. Client agrees that Entefy owns all right, title and interest, including but not limited to copyright, patent, trade secret and all other intellectual property rights, in and to the Software, and any changes, updates, modifications or corrections thereof. Client hereby irrevocably assigns to Entefy any and all rights it may be deemed to have in any changes, updates or modifications to the Software, including but not limited to copyright rights, and agrees to execute all documents necessary to implement and effect such assignment. Client shall not, and shall not authorize any third party to, (i) modify or use the Software except to the extent permitted in Section 3(b); or (ii) decompile, reverse engineer, disassemble or otherwise determine or attempt to determine source code or the underlying ideas, algorithms or structure of any Software or any part thereof. Client will not sub-license, distribute, or reproduce the Software without the express written consent of Entefy.",
+        "(b)  Client Content License. Subject to the terms and conditions of this Evaluation License, Client hereby grants to Entefy, and Entefy hereby accepts, a worldwide, royalty-free, non-exclusive license to use Client Content, as defined below, solely for the purpose of (i) developing Software improvements, (ii) internal testing of the Software, and (iii) otherwise performing the Services described herein.",
+        "(c)  License Exclusions. Except as expressly authorized herein, Client will not cause or permit any: (i) commercial use of the Software; (ii) copying or modification of the Software or related documentation; or, (iii) reverse engineering, decompilation, translation, disassembly, or discovery of the source code of all or any portion of the Software."
+      ]
+    },
+    {
+      "heading": "4. INVOICING AND PAYMENT.",
+      "paragraphs": [
+        "Unless otherwise defined in the Order, Client will pay each invoice no later than thirty (30) days after its receipt. The parties understand and agree that, due to the nature of Software, Entefy cannot guarantee any minimum level of success of Software, and Client agrees that it will pay for Software regardless of the outcome of any evaluation of Software."
+      ]
+    },
+    {
+      "heading": "5. OWNERSHIP AND PROPRIETARY RIGHTS.",
+      "paragraphs": [
+        "(a)  Ownership of Software. Entefy has and retains all right, title and interest in and to, and all Intellectual Property Rights in and to, the Software, and Services, including, but not limited to, any and all derivative works, improvements, enhancements, and extensions of the Software or Services (except for Client Content incorporated therein) and any newly developed features, additional functionality or other Software resulting from Services or Special Development Services. Client has no rights in the Software as delivered to Client, other than the license rights explicitly granted in this Evaluation License and rights to Client Content provided by Client for the purpose of developing the Software. “Intellectual Property Rights” means any patent rights, copyrights, copyright registrations, trade secrets, trade names, trademarks, service marks, moral rights, know-how and any other similar rights or intangible assets recognized under any laws or international conventions, and in any country or jurisdiction in the world, as intellectual creations to which rights of ownership accrue, and all registrations, applications, disclosures, renewals, extensions, continuations or reissues of the foregoing rights now or hereafter in force.",
+        "(b)  Ownership of Client Content. Client shall own all right, title and interest in any Client Content. “Client Content” shall include any and all data, text, software, sounds, images, videos, or other information provided by Client to Entefy in the course of providing Services."
+      ]
+    },
+    {
+      "heading": "6. PRIVACY AND SECURITY MEASURES.",
+      "paragraphs": [
+        "If and to the extent applicable, each party will collect, store, transmit, process and destroy any Personal Data in compliance with all applicable privacy and data protection laws, rules or regulations, including, but not limited to the California Consumer Protection Act (CCPA), regarding the collection, processing and use of individually identifiable information about an individual end user collected online (“Personal Data”) in connection with its role as described in the Evaluation License. Each party has established and implemented reasonable information security practices regarding the protection of Personal Data. Entefy shall maintain a secure processing environment.  Maintenance of a secure processing environment includes, but is not limited to, the timely application of anti-virus updates, system patches, fixes and updates to operating systems and applications. Entefy further agrees that any and all Client Content which is confidential and is stored on any portable or laptop computing device or any portable storage medium will be encrypted.  Entefy further agrees that any Client Content stored as part of Entefy’s designated backup and recovery processes will be in encrypted form, using a commercially supported encryption solution. Encryption solutions will be deployed with no less than industry standard key length for symmetric encryption and industry standard key length for asymmetric encryption, each as applicable. Secure email (SMTP/TLS) must be enabled for all Client domains. Client is responsible for ensuring the accuracy of all Personal Data provided by Client to Entefy, that such Personal Data is provided in compliance with all applicable laws and shall not transmit, disclose, or make available sensitive Personal Data to Entefy. If Entefy  believes, or has reason to believe that any unauthorized destruction, loss, alteration of or access to Client Content has occurred (a “Security Incident”), Entefy will: (a) promptly notify Client of such Security Incident; (b) promptly, in consultation with Client, start an investigation of the Security Incident and take all commercially reasonable actions to remediate the effects of the Security Incident and mitigate any risk that may arise from the Security Incident; (c) preserve all records and other evidence relating to the Security Incident; (d) provide Client with a written report on the outcome of its investigation, including any risk to Client Content, the corrective action Entefy will take, or has taken, to respond to the Security Incident and such other information as Client may reasonably request; and (e) provide Client with commercially reasonable assurance that such Security Incident will not recur."
+      ]
+    },
+    {
+      "heading": "7. TERMINATION.",
+      "paragraphs": [
+        "Either party may terminate this Evaluation License at any time, for any reason, with at least 30 days’ written notice to the other party.  If Entefy exercises its right to terminate this Evaluation License for convenience, Client shall be refunded a pro rata portion of fees already paid.  this Evaluation License shall terminate immediately if a party breaches any material term or condition of this Evaluation License and fails to remedy the breach within ten (10) days (if capable of being cured) after being given written notice thereof describing in reasonable detail the breach and stating the non-breaching party’s intent to terminate pursuant to this section. Upon termination or expiration of this Evaluation License, Entefy shall cease all work immediately unless otherwise advised by the Client and shall notify the Client of all costs incurred up to such termination date and provide the final invoice, if any. Upon termination or expiration of this Evaluation License for any reason other than Entefy cessation of business or insolvency pursuant to Section 6(b)(ii), all licenses granted hereunder shall immediately terminate. Upon the termination or expiration of this Evaluation License, each party will promptly destroy or turn over to the other party all documents, paper, electronic copies or other matter in its possession or under its control that contain the Confidential Information, including, but not limited to all Client Content."
+      ]
+    },
+    {
+      "heading": "8. WARRANTIES.",
+      "paragraphs": [
+        "(a)  ENTEFY MAKES NO WARRANTY OF ANY KIND, WHETHER STATUTORY, EXPRESS OR IMPLIED, AND HEREBY DISCLAIMS ANY AND ALL WARRANTIES INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTY OF NON-INFRINGEMENT. ENTEFY DOES NOT WARRANT THAT THE SOFTWARE, SERVICES, OR THE SOFTWARE EVALUATION WILL BE SUCCESSFUL, ERROR FREE OR OPERATE IN AN UNINTERRUPTED FASHION, WILL MEET CLIENT’S REQUIREMENTS, OR THAT THE SOFTWARE OR THE SOFTWARE EVALUATION WILL FUNCTION PROPERLY WHEN USED IN CONJUNCTION WITH ANY SERVICE, OTHER SOFTWARE, OR HARDWARE.",
+        "(b)  Client represents and warrants that the Client Content delivered by Client to Entefy does not infringe, misappropriate or otherwise violate the intellectual property rights of any third party."
+      ]
+    },
+    {
+      "heading": "9. LIMITATION OF LIABILITY.",
+      "paragraphs": [
+        "(a)  EXCEPT WITH RESPECT TO LIABILITY CLIENT MAY INCUR RESULTING FROM OR BASED UPON ENTEFY’S ACTS OF BAD FAITH, GROSS NEGLIGENCE OR WILLFUL MISCONDUCT, IN NO EVENT WILL ENTEFY BE LIABLE TO CLIENT FOR CONSEQUENTIAL, INCIDENTAL, INDIRECT, PUNITIVE OR SPECIAL DAMAGES, OR LOSS OF PROFITS, DATA, BUSINESS OR GOODWILL, REGARDLESS OF WHETHER SUCH LIABILITY IS BASED ON BREACH OF CONTRACT, TORT, STRICT LIABILITY, BREACH OF WARRANTIES, FAILURE OF ESSENTIAL PURPOSE, OR OTHERWISE, AND EVEN IF ADVISED OF THE LIKELIHOOD OF SUCH DAMAGES.",
+        "(b)  EXCEPT FOR LIABILITY CLIENT INCURS IN CONNECTION WITH ANY (I) THIRD PARTY CLAIM THAT CLIENT’S USE OF SERVICES INFRINGES SUCH PARTY’S INTELLECTUAL PROPERTY RIGHTS, (II) BREACH OF ENTEFY’S CONFIDENTIALITLY OBLIGATIONS HEREUNDER OR (III) ENTEFY’S ACTS OF BAD FAITH, WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE MAXIMUM LIABILITY OF ENTEFY TO CLIENT IN AGGREGATE (WHETHER IN CONTRACT, TORT OR OTHERWISE) FOR ANY AND ALL CLAIMS RELATING TO OR ARISING UNDER THIS EVALUATION LICENSE, INCLUDING INDEMNIFICATION, SHALL BE LIMITED TO THE AGGREGATE AMOUNT CLIENT HAS PAID ENTEFY FOR THE EVALUATION LICENSE UNDER THE APPLICABLE ORDER DURING THE TWELVE (12) MONTHS LEADING UP TO THE EVENTS GIVING RISE TO THE CLAIM."
+      ]
+    },
+    {
+      "heading": "10. INDEMNIFICATION.",
+      "paragraphs": [
+        "Client shall defend, indemnify and hold harmless Entefy against all liabilities, demands, losses, costs, and expenses (including without limitation reasonable attorneys’ fees) incurred by or imposed upon Entefy in connection with any third-party claims, suits, actions, demands or judgments arising from the negligence or fault of Client, its employees, or agents.",
+        "Entefy shall defend, indemnify and hold harmless Client and its affiliates and each of their officers, directors, employees and agents against all liabilities, demands, losses, costs, and expenses (including without limitation reasonable attorneys’ fees) incurred by or imposed upon Client in connection with any third-party claims, suits, actions, demands or judgments arising from (i) the negligence or fault of Entefy, its employees, or agents or (ii) Client’s use of Services as authorized hereunder."
+      ]
+    },
+    {
+      "heading": "11. CONFIDENTIALITY AND NONDISCLOSURE.",
+      "paragraphs": [
+        "Except as otherwise set forth in this Evaluation License, each party agrees that all code, inventions, know-how, business, technical and financial information disclosed to such party (“Receiving Party”) by the disclosing party (\"Disclosing Party\") constitute the confidential property of the Disclosing Party (\"Confidential Information\"), provided that it is identified as confidential at the time of disclosure or should reasonably be understood to be confidential in nature. Any information related to Software, Entefy’s business or operations shall be deemed Confidential Information of Entefy without any marking or further designation. Except as expressly authorized herein, the Receiving Party will hold in confidence and not use or disclose any Confidential Information. The Receiving Party's nondisclosure obligation shall not apply to information which the Receiving Party can document: (i) was lawfully in its possession or known to it prior to receipt of the Confidential Information without restriction on disclosure; (ii) is or has become public knowledge through no fault of the Receiving Party; (iii) is lawfully obtained by the Receiving Party from a third party which was not, to the best of the Receiving Party’s knowledge, after diligent inquiry, under any obligations of confidentiality; or (iv) is independently developed by employees of the Receiving Party without reference to or reliance upon any Confidential Information. The Receiving Party may also disclose Confidential Information if so required pursuant to a regulation, law, court order (but only to the minimum extent required to comply with such regulation or order and with advance notice to the Disclosing Party) or other action of a competent judicial, regulatory, administrative or governmental authority (including by deposition, interrogatory, request for documents, subpoena, civil investigative demand or similar process). The Receiving Party will provide the Disclosing Party with prompt written notice of any such request or requirement so that the Disclosing Party may seek an appropriate protective order or waive the Receiving Party’s obligations hereunder. If, in the absence of such a waiver, and failing the entry of a protective order, the Receiving Party, in the reasonable opinion of its legal counsel, is compelled to disclose Confidential Information, Receiving Party may disclose that portion of Confidential Information that such legal counsel advises Receiving Party that it is compelled to disclose, and will exercise reasonable efforts, at Disclosing Party’s cost and expense, to seek confidential treatment of that portion of the Confidential Information. In any event, the Receiving Party will not oppose action by the Disclosing Party to obtain an appropriate protective order. If requested by the Disclosing Party, the Receiving Party shall cooperate (at the Disclosing Party’s expense) in any action taken by the Disclosing Party to protect the confidentiality of the Confidential Information or any portion thereof.  The Receiving Party acknowledges that disclosure of Confidential Information would cause substantial harm for which damages alone would not be a sufficient remedy, and therefore that upon any such disclosure by the Receiving Party the Disclosing Party shall be entitled to appropriate equitable relief in addition to whatever other remedies it might have at law. For the avoidance of doubt, this section shall not operate as a separate warranty with respect to the operation of any Software."
+      ]
+    },
+    {
+      "heading": "12. GOVERNING LAW.",
+      "paragraphs": [
+        "This Evaluation License will be governed in all respects by the internal laws of the State of Delaware without regard to its conflicts of law provisions. The parties each irrevocably agree to the exclusive jurisdiction of the courts of Wilmington, Delaware, and waive any right to bring any action against the other party in any other jurisdiction or courts. If any legal action is brought by either party arising from, or related to, the subject matter of this Evaluation License, the prevailing party will be entitled to an award of its reasonable attorneys' fees and costs."
+      ]
+    },
+    {
+      "heading": "13. ASSIGNMENT.",
+      "paragraphs": [
+        "Neither Party shall assign this Evaluation License, any Order and/or any rights or obligations hereunder (including by operation of law) without the prior written consent of the other Party; except that either Party may assign this Evaluation License without consent in connection with a merger, reorganization, consolidation, change of control, or sale of all or substantially all of the assets to which this Evaluation License pertains and shall provide the assigning Party with a written notice to the other Party of any such permitted assignment within a commercially reasonable amount of time. Any assignment or transfer of this Evaluation License in violation of the foregoing shall be null and void. Notwithstanding the above, provisions of this Evaluation License relating to Confidential Information shall bind and inure to the benefit of the Parties and their respective successors and assigns."
+      ]
+    },
+    {
+      "heading": "14. PUBLICITY.",
+      "paragraphs": [
+        "Either party may only use in advertising, publicity or otherwise (including, without limitation, in printed and visual media and on the internet) the other party’s name, domain name, or logo, with the other party’s prior written approval, which approval shall be granted or withheld at the other party’s sole discretion."
+      ]
+    },
+    {
+      "heading": "15. NO THIRD-PARTY BENEFICIARIES.",
+      "paragraphs": [
+        "Nothing in this Evaluation License, express or implied, is intended to confer upon any party other than the parties hereto or their respective successors and assigns any rights, remedies, obligations, or liabilities under or by reason of this Evaluation License, except as expressly provided in this Evaluation License."
+      ]
+    },
+    {
+      "heading": "16. NOTICE.",
+      "paragraphs": [
+        "All notices, including notices of address changes, required to be sent hereunder shall be in writing and shall be deemed to have been given when mailed to the address listed on the Order."
+      ]
+    },
+    {
+      "heading": "17. SEVERABILITY.",
+      "paragraphs": [
+        "If any provision of this Evaluation License is declared by a court of competent jurisdiction to be invalid, void, or unenforceable, such provision will be enforced to the maximum extent possible and the remaining provisions of this Evaluation License will continue in full force and effect to the maximum extent permissible without being impaired or invalidated in any way."
+      ]
+    },
+    {
+      "heading": "18. AMENDMENTS; WAIVER; ENTIRE EVALUATION LICENSE.",
+      "paragraphs": [
+        "No amendment, change or modification of this Evaluation License shall be valid unless it is made in writing and signed by both parties hereto, and any waiver of a failure to perform or a breach shall not operate to waive any subsequent failure to perform or breach. This Evaluation License constitutes the entire Evaluation License of the parties hereto and supersedes all oral and written Evaluation Licenses and understandings made or entered into by the parties hereto prior to the date hereof."
+      ]
+    }
+  ]
+}

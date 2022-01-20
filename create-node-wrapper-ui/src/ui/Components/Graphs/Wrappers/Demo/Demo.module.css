@@ -1,0 +1,16 @@
+.root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  text-align: right;
+}
+
+.tryButton {
+  font-size: 15px;
+  color: #64b5f6;
+  text-transform: none;
+  margin-top: 10px;
+}

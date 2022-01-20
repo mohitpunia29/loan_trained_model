@@ -1,0 +1,9 @@
+.root,
+.responsiveRoot {
+  height: 100%;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 40px;
+}

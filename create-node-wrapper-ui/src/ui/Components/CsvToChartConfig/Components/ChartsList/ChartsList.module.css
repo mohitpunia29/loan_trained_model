@@ -1,0 +1,18 @@
+.selected {
+  background: var(--primary-main-color);
+}
+
+.textSelected {
+  color: white;
+}
+
+.thumbnail {
+  margin: auto;
+  width: auto;
+}
+
+.cardDisabled {
+  opacity: .4;
+  cursor: default;
+  pointer-events: none;
+}

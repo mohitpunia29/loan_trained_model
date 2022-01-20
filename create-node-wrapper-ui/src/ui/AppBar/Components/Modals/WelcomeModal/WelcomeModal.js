@@ -1,0 +1,49 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+import bindClassnames from 'classnames/bind';
+import Close from '../../../../Components/Icons/Close';
+
+import Welcome from '../../../../Auth/Welcome/AccountWelcome';
+
+import styles from './WelcomeModal.module.css';
+// Bind to classnames
+const classnames = bindClassnames.bind(styles);
+
+export default function WelcomeModal({ open, closeModal }) {
+  return (
+    <Dialog
+      // disableBackdropClick
+      // disableEscapeKeyDown
+      className={classnames('confirmation-dialog')}
+      aria-labelledby='confirmation-dialog-title'
+      onBackdropClick={closeModal}
+      open={open}
+      maxWidth='lg'
+    >
+      {/* <DialogTitle
+        id='confirmation-dialog-title'
+        classes={{ root: classnames('title') }}
+      >
+        <Close
+          className={classnames('closeIcon')}
+          onClick={closeModal}
+        />
+      </DialogTitle> */}
+      <DialogContent
+        classes={{
+          root: classnames('rootOverride')
+        }}
+      >
+        <Welcome closeModal={closeModal} />
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+WelcomeModal.propTypes = {
+  open      : PropTypes.bool.isRequired,
+  closeModal: PropTypes.func.isRequired
+};

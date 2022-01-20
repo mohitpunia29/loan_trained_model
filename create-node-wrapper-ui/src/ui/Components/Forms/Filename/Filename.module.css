@@ -1,0 +1,22 @@
+.input {
+  background: #dedede;
+  padding-left: 10px;
+  height: 49px;
+}
+
+.input::before {
+  content: none !important;
+}
+.input::after {
+  content: none !important;
+}
+
+.input input {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.inputValidation {
+  display: block;
+  height: 22px;
+}

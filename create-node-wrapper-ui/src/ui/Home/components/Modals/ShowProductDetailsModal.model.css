@@ -1,0 +1,55 @@
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  color: #c1c1c1;
+}
+
+.Modal__denseOverryde {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.label__overryde {
+  font-weight: bold !important;
+  font-size: 15px !important;
+  color: #000;
+}
+.label__selected .label__overryde {
+  color: #2a73da !important;
+}
+
+.label__disabled {
+  opacity: 0.5 !important;
+}
+.topPart {
+  padding-bottom: 20px;
+}
+.leftColumn__topPart img {
+  max-width: 80%;
+}
+
+.rightColumn__topPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header, .confirmation-dialog__Title h6 {
+  padding-bottom: 20px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.confirmation-dialog__Title {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.rightColumn__topPart__innerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}

@@ -1,0 +1,46 @@
+.root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+}
+
+.tooltipContent {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tooltipInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.row:first-child {
+  font-weight: 600;
+}
+.row span:first-child {
+  margin-right: 30px;
+}
+
+.connection {
+  stroke: var(--map-connection);
+  fill: none;
+  stroke-width: 0.4px;
+}
+
+.activeConnection {
+  stroke: blue;
+  stroke-width: 1px;
+}

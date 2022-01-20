@@ -1,0 +1,16 @@
+.colorContainer {
+  margin-top: 4px; /* to align with yAxis */
+  position: relative;
+}
+
+.color {
+  height: 30px;
+}
+
+.picker {
+  position: absolute !important;
+  z-index: 1;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

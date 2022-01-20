@@ -1,0 +1,78 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  margin: auto;
+  width: fit-content;
+}
+
+.yLabels,
+.xLabels {
+  font-size: 13px;
+}
+
+.yLabel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.yLabel span {
+  width: 100%;
+}
+
+.valueRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  overflow: hidden;
+}
+
+.cell span {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.xLabels {
+  display: flex;
+  flex-direction: row;
+}
+
+.xLabelsFlipped {
+  transform: rotate(-90deg);
+  flex-direction: column;
+  text-align: right;
+}
+
+.xLabel {
+  position: relative;
+}
+
+.xLabel span {
+  display: block;
+}
+
+.xLabelFlipped {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.xLabelFlipped span {
+  transform: rotate(5deg);
+  transform-origin: top right;
+}

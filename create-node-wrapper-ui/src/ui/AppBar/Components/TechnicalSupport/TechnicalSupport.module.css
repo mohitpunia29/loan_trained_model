@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supportBtn {
+  font-size: 16px !important;
+}

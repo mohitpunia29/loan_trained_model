@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.inputField {
+  height: 67px;
+  display: flex;
+  flex: 2 1 auto;
+  text-align: left;
+}
+
+.inputField > div {
+  overflow: hidden;
+}
+

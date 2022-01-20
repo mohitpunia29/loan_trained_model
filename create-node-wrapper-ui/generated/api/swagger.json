@@ -1,0 +1,812 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "termsOfService": "https://entefy.com/contact/",
+    "contact": {
+      "email": "dev@entefy.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "title": "AI-model-evaluator",
+    "description": "AI-model-evaluator",
+    "version": "0.0.1"
+  },
+  "host": "localhost",
+  "tags": [],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "isWeb": true,
+        "summary": "Will render the web app",
+        "description": "Will render the web app",
+        "operationId": "entryPoint",
+        "consumes": [],
+        "produces": [
+          "text/html"
+        ],
+        "parameters": [],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/computerVision/file/{sessionId}/{id}": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Upload a new file",
+        "description": "Upload a new file",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "sessionId",
+          "in": "path",
+          "description": "The id of the client session",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }, {
+          "name": "id",
+          "in": "path",
+          "description": "The id of the file",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "201": {
+            "description": "File successfully uploaded",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "success": {
+                  "type": "boolean",
+                  "enum": [
+                    true
+                  ]
+                },
+                "data": {
+                  "type": "object",
+                  "required": ["id", "sessionId", "name"],
+                  "properties": {
+                    "sessionId": {
+                      "description": "The id of the client session",
+                      "type": "string",
+                      "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+                    },
+                    "id": {
+                      "description": "The id of the file",
+                      "type": "string",
+                      "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+                    },
+                    "name": {
+                      "description": "The name of the file",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/computerVision/file/get/{sessionId}/{id}": {
+      "get": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "serveFile": "/opt/ai-demo/files",
+        "summary": "Will serve the files",
+        "description": "Will serve the files",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "image/*",
+          "video/*"
+        ],
+        "parameters": [{
+          "name": "sessionId",
+          "in": "path",
+          "description": "The id of the client session",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }, {
+          "name": "id",
+          "in": "path",
+          "description": "The id of the file",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/models/{provider}/{sessionId}/{id}": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Will proxy the request to an external service",
+        "description": "Will proxy the request to an external service",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "provider",
+          "in": "path",
+          "description": "The name of the provider",
+          "required": true,
+          "type": "string"
+        }, {
+          "name": "sessionId",
+          "in": "path",
+          "description": "The id of the client session",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }, {
+          "name": "id",
+          "in": "path",
+          "description": "The id of the file",
+          "required": true,
+          "type": "string",
+          "pattern": "^[a-f\\d]{8}(?:-[a-f\\d]{4}){3}-[a-f\\d]{12}?$"
+        }, {
+          "name": "body",
+          "in": "body",
+          "description": "Body containing the parameters for the provider",
+          "required": true,
+          "schema": {
+            "type": "object"
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/providers/config": {
+      "get": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Returns the config for all the providers",
+        "description": "Returns the config for all the providers",
+        "operationId": "entryPoint",
+        "consumes": [],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/getCsvSchema": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Extract the header from a CSV",
+        "description": "Extract the header from a CSV",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "description": "Url of the file",
+                "type": "string",
+                "required": true
+              },
+              "fileId": {
+                "description": "Id of the file",
+                "type": "string"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/exportSchemaAsSQL": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Export the csv schema as SQL",
+        "description": "Export the csv schema as SQL",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "files": {
+                "description": "Array of csv files",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "description": "id of the file",
+                      "type": "string"
+                    },
+                    "name": {
+                      "description": "Name of the file",
+                      "type": "string"
+                    },
+                    "fields": {
+                      "description": "Fields of the csv file",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "description": "Name of the field",
+                            "type": "string"
+                          },
+                          "type": {
+                            "description": "Type of the field",
+                            "type": "string"
+                          },
+                          "length": {
+                            "description": "Maximum length of the field",
+                            "type": "number"
+                          },
+                          "null": {
+                            "description": "Whether the field value can be null",
+                            "type": "boolean"
+                          },
+                          "default": {
+                            "description": "The default value for the field",
+                            "type": ["string", "number", "boolean"]
+                          },
+                          "primaryKey": {
+                            "description": "Whether the field is or is part of the primaryKey",
+                            "type": "boolean"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "relations": {
+                "description": "Relations between the fields of the files, TODO",
+                "type": "array"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/exportDataAsSQL": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Export the csv data as SQL",
+        "description": "Export the csv data as SQL",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/sql"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "description": "Url of the file",
+                "type": "string",
+                "required": true
+              },
+              "fields": {
+                "description": "Fields of the csv file",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "description": "Name of the field",
+                      "type": "string"
+                    },
+                    "type": {
+                      "description": "Type of the field",
+                      "type": "string"
+                    },
+                    "length": {
+                      "description": "Maximum length of the field",
+                      "type": "number"
+                    },
+                    "null": {
+                      "description": "Whether the field value can be null",
+                      "type": "boolean"
+                    },
+                    "default": {
+                      "description": "The default value for the field",
+                      "type": ["string", "number", "boolean"]
+                    },
+                    "primaryKey": {
+                      "description": "Whether the field is or is part of the primaryKey",
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "relations": {
+                "description": "Relations between the fields of the files, TODO",
+                "type": "array"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/generateLayers": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Take a special relationship CSV and create layers",
+        "description": "Take a special relationship CSV and create layers",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "description": "Url of the file",
+                "type": "string",
+                "required": true
+              },
+              "layers": {
+                "description": "Configuration of the layers, TODO",
+                "type": "array"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/csvToJson": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Convert a CSV to a JSON array",
+        "description": "Convert a CSV to a JSON array",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "description": "Url of the file",
+                "type": "string",
+                "required": false
+              },
+              "csv": {
+                "description": "The csv as a string",
+                "type": "string",
+                "required": false
+              },
+              "fromLine": {
+                "description": "The line to start from",
+                "type": "number",
+                "default": 0
+              },
+              "lineCount": {
+                "description": "The number of lines to process",
+                "type": "number"
+              },
+              "delimiter": {
+                "description": "The csv delimiter",
+                "type": "string"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/dataVisualization/randomCsv": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Create a randomized csv from an original CSV",
+        "description": "Create a randomized csv from an original CSV",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "description": "Path to the file",
+                "type": "string",
+                "required": true
+              },
+              "linesCount": {
+                "description": "Number of line in the csv",
+                "type": "number"
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/techtonik/generateCSVFromSample": {
+      "get": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Generate a CSV from the sample",
+        "description": "Generate a CSV from the sample",
+        "operationId": "entryPoint",
+        "consumes": [],
+        "produces": [
+          "text/csv"
+        ],
+        "parameters": [{
+          "name": "mode",
+          "in": "query",
+          "description": "Mode: random, sequential or cherry-pick, determines the row number to start from",
+          "required": false,
+          "type": "string"
+        }, {
+          "name": "lineCount",
+          "in": "query",
+          "description": "The number of lines in the file",
+          "required": false,
+          "type": "number",
+          "minimum": 0
+        }, {
+          "name": "ranges",
+          "in": "query",
+          "description": "An array of ranges",
+          "required": false,
+          "type": "array",
+          "items": {
+            "description": "A range [min, max]",
+            "type": "array",
+            "items": {
+              "description": "Min or max value of the range",
+              "type": "number"
+            }
+          }
+        }, {
+          "name": "sortColumn",
+          "in": "query",
+          "description": "The name of the column (header)",
+          "required": false,
+          "type": "string"
+        }, {
+          "name": "sortDirection",
+          "in": "query",
+          "description": "The order to use to sort, default to asc",
+          "required": false,
+          "type": "string"
+        }, {
+          "name": "sortType",
+          "in": "query",
+          "description": "The type of the column, (alphanumeric, numeric, date), defaults to alphanumeric",
+          "required": false,
+          "type": "string"
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/techtonik/paginateCSVSample": {
+      "get": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Extract a subset of the CSV sample",
+        "description": "Extract a subset of the CSV sample",
+        "operationId": "entryPoint",
+        "consumes": [],
+        "produces": [
+          "text/csv"
+        ],
+        "parameters": [{
+          "name": "start",
+          "in": "query",
+          "description": "The row to start from",
+          "required": true,
+          "type": "number"
+        }, {
+          "name": "count",
+          "in": "query",
+          "description": "The number of rows to return",
+          "required": true,
+          "type": "number"
+        }, {
+          "name": "sortColumn",
+          "in": "query",
+          "description": "The name of the column (header)",
+          "required": false,
+          "type": "string"
+        }, {
+          "name": "sortDirection",
+          "in": "query",
+          "description": "The order to use to sort, default to asc",
+          "required": false,
+          "type": "string"
+        }, {
+          "name": "sortType",
+          "in": "query",
+          "description": "The type of the column, (alphanumeric, numeric, date), defaults to alphanumeric",
+          "required": false,
+          "type": "string"
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/technicalSupport": {
+      "post": {
+        "tags": [
+          "AI-model-evaluator"
+        ],
+        "summary": "Send a mail to the technical support",
+        "description": "Send a mail to the technical support",
+        "operationId": "entryPoint",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "body",
+          "in": "body",
+          "description": "Body",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "subject": {
+                "description": "Subject of the email",
+                "type": "string",
+                "required": true
+              },
+              "from": {
+                "description": "The originating email address",
+                "type": "string",
+                "required": true
+              },
+              "text": {
+                "description": "The text of the email",
+                "type": "string",
+                "required": true
+              }
+            }
+          }
+        }],
+        "x-swagger-router-controller": "index",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "securityDefinitions": {},
+  "definitions": {},
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "https://swagger.io"
+  }
+}

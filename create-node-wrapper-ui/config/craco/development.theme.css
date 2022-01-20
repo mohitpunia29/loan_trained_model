@@ -1,0 +1,19 @@
+:root {
+  --primary-main-color     : #222;
+  --main-btn-color         : #1977ad;
+  --main-btn-hover-color   : #1f90d1;
+  --main-btn-disabled-color: #dedede;
+  --main-btn-height        : 30px;
+  --main-btn-padding       : 0px 40px 0px 40px;
+  --secondary-btn-color    : #909090;
+  --third-btn-color        : #fff;
+  --approved               : #6f9e4c;
+  --rejected               : #909090;
+  --chart-bg-color         : #99d36c;
+  --map-countries          : rgba(34, 34, 34, X);
+  --map-active-country     : #2E75C4;
+  --map-marker-1           : rgb(243, 50, 25);
+  --map-marker-2           : #F39019;
+  --map-marker-3           : rgba(255, 217, 0, 0.5);
+  --map-connection         : #F39019;
+}

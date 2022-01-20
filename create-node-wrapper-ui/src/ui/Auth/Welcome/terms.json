@@ -1,0 +1,24 @@
+[{
+  "paragraphs": [
+    "Thank you for using the Cost Record Manager, powered by Entefy. This application is specially designed to provide {COMPANY_NAME} and its authorized vendors with an easy-to-use and powerful web-based utility to assist with the costing process.",
+    "Currently, at {COMPANY_NAME}, cost sheets are maintained as individual Excel spreadsheets that are completed, shared, reviewed, analyzed, and approved via time-consuming manual processes. The Entefy Cost Record Manager application for {COMPANY_NAME} replaces the traditional Excel “cost sheets” with web-based “Cost Records” designed to streamline the entire costing workflow with efficiency and scale.",
+    "This application can help users reduce key analysis cycles, intelligently categorize cost submissions into global product categories, automatically reconcile records, and significantly reduce data entry errors.",
+    "You’ll discover a number of exciting features and capabilities which will only grow over time. Current application features include:"
+  ]
+}, {
+  "list": [
+    "Online Cost Record creation and real-time submission via smart Webforms",
+    "Full Cost Record history and stage tracking ",
+    "Automatic Cost Record version control ",
+    "Advanced costing workflow between {COMPANY_NAME} and vendors",
+    "User activity synchronization across browser sessions and devices",
+    "Instant Cost Record lookup with custom filtering options",
+    "Integration with Centric tech packs and libraries",
+    "In-app notifications for new Styles created in Centric",
+    "And much more!"
+  ]
+}, {
+  "paragraphs2-disabled": [
+    "Integration with {COMPANY_NAME}’s Centric system is to be released in an upcoming application version. The current Mimi costing database powering this application has been populated by information mined by Entefy from a limited set of existing {COMPANY_NAME} cost sheets (Excel files) from prior seasons and converted into “new” Cost Records and component libraries for demonstration and testing purposes. This mined information does not represent data pulled from actual Tech Packs nor does it represent active Styles open for costing. Therefore, the results, reliability, and accuracy of any machine learning or other data analytics features enabled in the application are subject to change as new data is provided, integrations are completed, models are updated, and new capabilities are deployed."
+  ]
+}]

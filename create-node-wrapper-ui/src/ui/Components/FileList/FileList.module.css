@@ -1,0 +1,126 @@
+.root {
+  padding-top: 10px;
+  max-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.spinnerContainer,
+.noFilesContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noFilesContainer {
+  text-align: center;
+  font-style: italic;
+}
+
+.root .header {
+  text-align: left;
+  padding-left: 10px;
+  line-height: 30px;
+  border-bottom: 2px solid black;
+  margin-bottom: 0;
+  display: flex;
+  flex: 0 0 30px;
+}
+
+.header h4 {
+  flex: 1;
+  text-align: left;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header .formControl {
+  flex: 1;
+  text-transform: none;
+  max-width: 100px;
+}
+.header .formControl > div {
+  display: flex;
+  height: 100%;
+}
+.selectDiv_override {
+  padding-left: 5px;
+}
+
+.header .formControl > div::before {
+  content: '';
+  border-bottom: 0;
+}
+
+.bucketContainer {
+  position: relative;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.itemContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.checkboxContainer {
+  justify-content: left !important;
+  width: 34px !important;
+}
+.checkbox {
+  padding: 0;
+}
+.fileComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.fileComponent.withCheckBox {
+  width: calc(100% - 34px);
+}
+
+.filesContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.bucket {
+  padding-top: 20px;
+}
+.bucket p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  margin-bottom: 0px;
+}
+.item {
+  height: auto !important;
+  padding: 0 !important;
+  border-bottom: 1px solid #eee !important;
+  position: relative;
+}
+
+.formControl {
+  width: 100%;
+  display: block !important;
+}
+.formControl > div {
+  width: 100%;
+}
+
+.noPaddingTop {
+  padding-top: 0 !important;
+}
+
+.list {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

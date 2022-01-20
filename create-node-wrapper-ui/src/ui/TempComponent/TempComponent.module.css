@@ -1,0 +1,31 @@
+.root {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  text-align: left;
+}
+
+.leftCol {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.rightCol {
+  width: calc(100% - 300px);
+  padding: 5px;
+}
+
+.active {
+  background: #fff !important;
+  font-weight: 700;
+}
+
+.menuItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px;
+}

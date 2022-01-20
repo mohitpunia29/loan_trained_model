@@ -1,0 +1,19 @@
+.root {
+  padding: 10px;
+}
+
+.name,
+.description {
+  color: white;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  flex: 1;
+}
+.isRequired {
+}

@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root + .root {
+  margin-top: 20px;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.option {
+  padding-left: 20px;
+  text-align: left;
+}

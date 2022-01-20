@@ -1,0 +1,9 @@
+.link {
+  stroke: #c2c2c2;
+  fill: none;
+}
+
+ .active{
+  stroke: #60c4ff;
+  stroke-width: 2px;
+}

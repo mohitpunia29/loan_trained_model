@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.divider {
+  width: 1px;
+  margin: 0px 30px;
+  background: #dedede;
+}
+.fileDropzone {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

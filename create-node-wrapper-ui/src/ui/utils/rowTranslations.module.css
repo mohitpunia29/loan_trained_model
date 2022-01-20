@@ -1,0 +1,11 @@
+.decision {
+  padding: 3px 20px;
+  border-radius: 15px;
+}
+.approved {
+  background-color: #46E346;
+}
+.declined {
+  background-color: #F77475;
+  padding: 3px 27px;
+}

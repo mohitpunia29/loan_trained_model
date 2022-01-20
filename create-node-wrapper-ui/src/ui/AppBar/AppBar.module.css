@@ -1,0 +1,42 @@
+.AppBar {
+  /* moved that into theme object override */
+  /* background-color: #2a73da !important; */
+}
+
+.ToolBar {
+  display: flex;
+}
+
+.AppBar-title {
+  text-align: left;
+  flex: 1;
+}
+
+.logo {
+  min-height: inherit !important;
+  /* padding: 0px!important; */
+  /* margin-left: -24px!important; */
+}
+.logo:hover {
+  background-color: transparent !important;
+}
+
+.options {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.optionsButton {
+  height: 100%;
+}
+
+.settingsButton svg {
+  fill: #fff;
+}
+
+@media print {
+  .AppBar {
+    display: none !important;
+  }
+}

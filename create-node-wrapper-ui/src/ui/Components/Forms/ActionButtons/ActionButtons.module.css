@@ -1,0 +1,6 @@
+.root {
+  flex-direction: row !important;
+}
+.wrapper + .wrapper{
+  margin-left: 20px;
+}

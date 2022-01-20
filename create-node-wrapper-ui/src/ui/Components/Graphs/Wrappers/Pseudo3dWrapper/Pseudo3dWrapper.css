@@ -1,0 +1,25 @@
+.pseudo3dWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotated {
+  transform: matrix(1, -0.2, 0, 1, 0, 50);
+  transform-style: preserve-3d;
+}
+
+.rotated .recharts-legend-wrapper {
+  bottom: 80px!important;
+}
+
+.rotated.radar .recharts-legend-wrapper {
+  bottom: 20px!important;
+}
+
+.rotated.radial .recharts-legend-wrapper {
+  bottom: 20px!important;
+}

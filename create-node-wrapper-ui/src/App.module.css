@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Loading {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+.show {
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* ::webkit-scrollbar-track {
+  background: #e6e6e6;
+}
+* ::-webkit-scrollbar-thumb {
+  background: rgba(92,92,92,.5);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: background .3s cubic-bezier(.4,0,.2,1);
+  -o-transition: background .3s cubic-bezier(.4,0,.2,1);
+  -moz-transition: background .3s cubic-bezier(.4,0,.2,1);
+  transition: background .3s cubic-bezier(.4,0,.2,1);
+}
+* ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}

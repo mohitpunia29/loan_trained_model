@@ -1,0 +1,42 @@
+.root {
+  margin: 16px 0;
+  width: 100%;
+  /* overflow: auto; */
+}
+.thin {
+  margin: 0.5px 0;
+  margin-top: 0.5px !important;
+  width: 100%;
+}
+
+ .titleContainer {
+  background: white !important;
+}
+.blackTitleContainer {
+  background: black !important;
+}
+
+
+ .thin .titleContainer {
+  min-height: 35px !important;
+  height: 35px !important;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+
+ .title {
+  font-size: 19px !important;
+  font-weight: 700 !important;
+}
+.blackTitleContainer .title {
+  color: white !important;
+}
+
+ .head {
+  width: 100%;
+}
+
+ .thin .head {
+  padding-bottom:0px;
+}

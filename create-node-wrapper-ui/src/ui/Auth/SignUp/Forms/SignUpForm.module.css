@@ -1,0 +1,64 @@
+.root {
+  width: 600px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px 15px 25px;
+  position: relative;
+}
+.logo {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  margin-top: 10px;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.link, .signUpLink a {
+  cursor: pointer;
+  color: #0366d6;
+}
+
+.signUpLink {
+  padding-top: 20px;
+}
+
+
+
+.userTypeContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 92px;
+  padding: 0px 24px 0px 22px;
+  z-index: 1000;
+  /* opacity: 0.95; */
+}
+
+.userType {
+  width: 120px;
+  text-align: left;
+  margin-left: 210px;
+
+  color: gray;
+  /* transform: scaleY(0.9) scaleX(0.9); */
+}
+
+.teamName {
+  width: 210px;
+  text-align: left;
+  color: gray;
+  /* transform: scaleY(0.9) scaleX(0.9); */
+}

@@ -1,0 +1,8 @@
+.csvColumn,
+.dropzone {
+  height: 50px;
+}
+
+.hovered {
+  background-color: #eee;
+}

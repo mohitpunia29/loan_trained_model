@@ -1,0 +1,20 @@
+.root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.svg {
+  height: 100% !important;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 15px;
+  font-weight: 500;
+  visibility: hidden;
+}

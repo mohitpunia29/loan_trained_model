@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label {
+  color: black;
+  z-index: 10;
+  position: absolute;
+}
+
+.main {
+  color: var(--main-btn-color);
+}
+
+.secondary {
+  color: var(--secondary-btn-color);
+}
+

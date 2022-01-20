@@ -1,0 +1,21 @@
+.root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+nav {
+  flex: 0 0 200px;
+}
+
+main {
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+.rotateToggle {
+  padding-left: 10px;
+}

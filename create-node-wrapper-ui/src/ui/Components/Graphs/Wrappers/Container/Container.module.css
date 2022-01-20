@@ -1,0 +1,16 @@
+.root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  flex: 0 0 20px;
+  margin-bottom: 16px;
+}
+
+.chart {
+  flex: 1 1 auto;
+  position: relative;
+}

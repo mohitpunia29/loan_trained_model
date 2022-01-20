@@ -1,0 +1,48 @@
+.main {
+  width: 400px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px 15px 25px;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loginForm {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit {
+  margin-top: 10px;
+}
+.circularProgress__root {
+  height: 20px !important;
+  width: 20px !important;
+  margin-right: 10px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.link, .signUpLink a {
+  cursor: pointer;
+  color: #0366d6;
+}
+
+.signUpLink {
+  padding-top: 20px;
+}

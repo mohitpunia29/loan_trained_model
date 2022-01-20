@@ -1,0 +1,28 @@
+.root {
+  flex-direction: column;
+}
+.root header {
+  display: flex;
+  align-items: center;
+}
+
+.tabs {
+  flex: 1 0;
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.scrollable {
+  overflow: hidden !important; /* hide the scrollbar */
+}
+.tab {
+  color: black;
+  font-weight: bold;
+}
+
+.renderContainer {
+  margin-top: 20px;
+}
+
+.activeTab {
+  height: 4px;
+}

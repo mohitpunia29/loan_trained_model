@@ -1,0 +1,18 @@
+.root {
+  background: #dedede;
+  font-size: 1.6em;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-logo {
+  margin-right: 20px;
+  height: 50px;
+}
+.company-logo img {
+  height: 50px;
+}

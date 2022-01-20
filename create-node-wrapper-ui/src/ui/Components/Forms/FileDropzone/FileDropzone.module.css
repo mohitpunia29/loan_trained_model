@@ -1,0 +1,55 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  border: 2px dashed transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.root h4 {
+  font-size: 23px;
+  margin: 10px 0 15px;
+}
+
+.root .border {
+  border: 2px dashed #b3b3b3;
+  border-radius: 20px;
+  padding: 10px;
+}
+.root.dropping .border {
+  border-color: black;
+}
+.root svg {
+  fill: #dedede;
+  transition: none;
+}
+.root.dropping svg {
+  fill: black;
+}
+
+h4 {
+  text-align: center;
+  word-break: break-all;
+}
+
+.icon {
+  margin: auto;
+  font-size: 70px;
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+.delete {
+  display: block !important;
+  margin: auto !important;
+  font-size: 30px !important;
+}
+
+.withoutHeader {
+  height: auto;
+  width: 100%;
+  max-width: 195px;
+}
